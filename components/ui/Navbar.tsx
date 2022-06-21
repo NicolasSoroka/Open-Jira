@@ -7,11 +7,11 @@ import { UIContext } from "../../context/ui";
 export const Navbar:FC = () => {
 
   const { openSideMenu } = useContext( UIContext );
-  
+
   return (
     <AppBar position="sticky">
         <Toolbar>
-          <IconButton 
+          <IconButton
             size="large"
             edge='start'
             onClick={openSideMenu}
